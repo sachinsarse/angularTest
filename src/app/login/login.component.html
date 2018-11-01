@@ -37,7 +37,7 @@
                required
                [(ngModel)]="model.userName" name="userName"
                #userName="ngModel">
-        <div [hidden]="name.valid || name.pristine"
+        <div [hidden]="userName.valid || userName.pristine"
              class="alert alert-danger">
          User Name is required
         </div>
